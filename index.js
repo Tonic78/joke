@@ -8,10 +8,15 @@ const app = express()
 const page = `<html>
   <head>
     <title>Guy Mertz</title>
+    <style>
+      body {
+        color: blue;
+      }
+    </style>
   </head>
   <body>
-    <h1>Get ready to laugh. Joke setup</h1>
-    <p>Punchline. So, now you laugh</p> 
+    <h1>Why did the developer stay home from work?</h1>
+    <p>(s)he had a code!</p> 
   </body>
 </html>`
 
